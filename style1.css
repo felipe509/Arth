@@ -1,0 +1,49 @@
+.sptfy {
+    border-radius: 12px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: var(--items-color);
+    border-bottom: 1px solid var(--border-color);
+}
+nav img{
+    margin-left: 20px;
+}
+nav span i{
+    color: #000000;
+    font-size: 2.7rem;
+    cursor: pointer;
+}
+aside{
+    background-color: var(--items-color);
+    width: 260px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    margin-top: 47.10px;
+    transition: 0.5s;
+}
+aside::hover{
+    overflow-y: auto;
+}
+.desplegar{
+    transform: translateX(-100%);
+}
+aside::-webkit-scrollbar{
+    width: 8px;
+}
+aside::-webkit-scrollbar-thumb{
+    background-color: #909090;
+    border-radius:5px;
+
+}
